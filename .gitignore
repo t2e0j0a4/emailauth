@@ -1,0 +1,3 @@
+# Ignoring Node Modules & Environmental Variables.
+/node_modules
+.env
