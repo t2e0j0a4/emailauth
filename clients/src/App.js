@@ -4,7 +4,7 @@ import React from 'react'
 import {BrowserRouter as MyRouter, Route, Routes } from "react-router-dom"
 
 // Pages Import
-import {Register, Login, Profile, PasswordRecovery, PasswordReset} from "./Pages";
+import {Register, Login, Profile, PasswordRecovery, PasswordReset, PageNotFound} from "./Pages";
 
 const App = () => {
   return (
@@ -15,6 +15,7 @@ const App = () => {
         <Route path='/profile' element={<Profile/>}/>
         <Route path='/recovery' element={<PasswordRecovery/>}/>
         <Route path='/reset' element={<PasswordReset/>}/>
+        <Route path='/pageerror' element={<PageNotFound/>}/>
       </Routes>
     </MyRouter>
   )

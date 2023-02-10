@@ -12,6 +12,14 @@ export const loginValidate = async (values) => {
     return error;
 }
 
+export const registerValidate = async (values) => {
+    
+    let error = {};
+    // let {email,username,password} = values;
+    return error;
+
+}
+
 export const recoverOtpValidate = async (values) => {
 
     let alpha = /[a-zA-Z]/ig;

@@ -38,7 +38,7 @@ export default function Login() {
         <Toaster position="top-right" reverseOrder={false}></Toaster>
       </div>
 
-      <div className=" w-[300px] sm:w-[360px] px-6 py-4 flex flex-col items-center justify-center gap-y-3 bg-gray-50 shadow-sm rounded-[6px] ">
+      <div className=" w-[300px] sm:w-[500px] px-6 py-4 flex flex-col items-center justify-center gap-y-3 bg-gray-50 shadow-sm rounded-[6px] ">
         <div className="w-[100%] text-[#232323] flex flex-col items-center justify-center gap-y-[0.4px]">
           <h3 className="text-center text-[24px] font-bold tracking-wider">
             Login

@@ -7,3 +7,29 @@
 * > * {
     font-family: 'Prociono', serif;
 }
+
+.flip-scale-down-diag-1 {
+	-webkit-animation: flip-scale-down-diag-1 3s linear infinite alternate both;
+	animation: flip-scale-down-diag-1 3s linear infinite alternate both;
+}
+
+@-webkit-keyframes flip-scale-down-diag-1 {
+  0% {
+    -webkit-transform: scale(1) rotate3d(1, 0, 1, 0deg);
+    transform: scale(1) rotate3d(1, 0, 1, 0deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotate3d(1, 0, 1, -180deg);
+    transform: scale(1) rotate3d(1, 0, 1, -180deg);
+  }
+}
+@keyframes flip-scale-down-diag-1 {
+  0% {
+    -webkit-transform: scale(1) rotate3d(1, 0, 1, 0deg);
+    transform: scale(1) rotate3d(1, 0, 1, 0deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotate3d(1, 0, 1, -180deg);
+    transform: scale(1) rotate3d(1, 0, 1, -180deg);
+  }
+}
